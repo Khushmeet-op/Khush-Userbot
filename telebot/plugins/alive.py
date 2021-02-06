@@ -1,4 +1,4 @@
-# For @TeleBotHelp
+# For @khushuserbotsupport
 """Check if your userbot is working."""
 import time
 from datetime import datetime
@@ -7,9 +7,9 @@ from io import BytesIO
 import requests
 from PIL import Image
 
-from telebot import ALIVE_NAME, CMD_HELP, telever
-from telebot.__init__ import StartTime
-from telebot.telebotConfig import Config, Var
+from KhushUserbot import ALIVE_NAME, CMD_HELP, telever
+from Khushuserbot.__init__ import StartTime
+from KhushUserbot.telebotConfig import Config, Var
 
 # ======CONSTANTS=========#
 CUSTOM_ALIVE = (
